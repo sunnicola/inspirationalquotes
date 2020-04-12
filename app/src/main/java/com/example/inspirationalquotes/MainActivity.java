@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
-
+        //Share button allows users to share quotes/jokes that have inspired them
         share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,6 +74,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(sendIntent);
             }
         });
-
-        };
+        }
     }
